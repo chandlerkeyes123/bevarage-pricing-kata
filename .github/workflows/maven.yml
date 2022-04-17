@@ -16,4 +16,4 @@ jobs:
       - name: Build with Maven # runs the Maven package target in non-interactive mode to ensure that your code builds, tests pass, and a package can be created
         run: mvn --batch-mode --update-snapshots verify
       - name: Tests
-          run: mvn clean test
+        run: mvn clean test
