@@ -2,7 +2,7 @@ package beverages;
 
 public class Tea implements Beverage {
     @Override
-    public double price() {
+    public double basePrice() {
         return 1.5;
     }
 }
