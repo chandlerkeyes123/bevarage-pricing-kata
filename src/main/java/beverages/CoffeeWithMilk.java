@@ -12,7 +12,7 @@ public class CoffeeWithMilk extends Coffee {
     @Override
     public Collection<AddOns> addOns() {
         Collection<AddOns> addOns = super.addOns();
-        addOns.addAll(List.of(AddOns.Milk));
+        addOns.add(AddOns.Milk);
         return addOns;
     }
 }
